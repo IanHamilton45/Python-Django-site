@@ -1,0 +1,9 @@
+source activate python_django_env
+cd django_project
+python manage.py runserver
+
+
+
+
+
+localhost:8000

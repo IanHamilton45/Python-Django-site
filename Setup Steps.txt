@@ -1,0 +1,18 @@
+1. Install Conda
+2. conda create --name python_django_env flask sqlalchemy numpy pandas
+3. source activate python_django_env
+4. conda env export > environment.yaml
+5. List out all environments: conda env list
+6. cd C:/Users/Ian/Anaconda3/envs/python_django_env
+7. mkdir -p etc/conda/activate.d
+8. mkdir -p etc/conda/deactivate.d
+THE 2 FOLLOWING FILES SET ENVIRONMENT VARIABLES
+9. touch etc/conda/activate.d/env_vars.sh
+10. touch etc/conda/deactivate.d/env_vars.sh
+
+
+
+
+
+4.Notes. Use this file by creating a venv with:
+    conda env create -f environment.yaml
